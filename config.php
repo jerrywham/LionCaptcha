@@ -57,7 +57,7 @@ function getExt($file)
     <p>
         <label><?php $plxPlugin->lang("L_DIR") ?> : 
             <input type="text" name="dir" value="<?php echo ($plxPlugin->getParam("dir") == '' ? 'data/LionCaptcha/' : $plxPlugin->getParam("dir"));?>" size="20"/>
-            <a class="help" title="<?php echo L_HELP_SLASH_END ?>">&nbsp;</a><strong>ex: data/LionCaptcha/</strong>
+            <a class="hint"><span><?php echo L_HELP_SLASH_END ?></span></a>&nbsp;<strong>ex: data/LionCaptcha/</strong>
         </label>
     </p>
     <p>
