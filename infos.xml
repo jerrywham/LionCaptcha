@@ -5,5 +5,6 @@
 	<version>1.0</version>
 	<date>08/08/17</date>
 	<site>http://www.ecyseo.net</site>
+	<compatible>5.6</compatible>
 	<description><![CDATA[Captcha dérivé de Lion Wiki]]></description>
 </document>
